@@ -147,8 +147,8 @@ a.article:hover {
 }
 
 @media(max-width:768px){
-	#sidebar{margin-left: -250px;}
-	#sidebar.active{
+	#sidebar.active{margin-left: -250px;}
+	#sidebar{
 		margin-left: 0px;
 	}
 	#sidebarCollapse span{
