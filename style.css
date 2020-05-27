@@ -11,6 +11,12 @@ html{
 	scroll-behavior: smooth;
 }
 
+iframe{
+	width: 90%;
+	height: 600px;
+}
+
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -140,7 +146,7 @@ a.article:hover {
     transition: all 0.3s;
 }
 
-@media(maz-width:768px){
+@media(max-width:768px){
 	#sidebar{margin-left: -250px;}
 	#sidebar.active{
 		margin-left: 0px;
@@ -148,6 +154,10 @@ a.article:hover {
 	#sidebarCollapse span{
 		display: none;
 	}
+	iframe{
+	width: 90%;
+	height: 300px;
+}
 }
 
 
