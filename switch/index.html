@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+    <head>
+
+
+
+    </head>
+
+    <body onload="Switch()">
+
+ <script type="text/javascript">
+function Switch() {
+
+  var txt = prompt("Press ' 1 ' for Formal View or ' 2 ' for Casual View or ' 3 ' for Django Website or ' 4 ' for Google Sites", "1");
+ 
+  if (txt === "1") {
+
+   a = "https://msakabir.github.io/formal/";
+
+}
+
+  else if (txt === "2") {
+
+   a = "https://msakabir.github.io/casual/";
+}
+  else if (txt === "3") {
+
+   a = "https://msakabir.herokuapp.com"; 
+
+}
+  else if (txt === "4") {
+
+   a = "https://sites.google.com/view/msakabir";
+}
+else
+{
+   window.open('', '_self', '');
+  window.close();
+}
+  
+  window.location.href = a;
+}
+    </script>
+
+
+    </body>
+    </html>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="shortcut icon" type = "image/x-icon" href = "favicon.png">
 
     <title>Course Site</title>
   </head>
@@ -16,62 +17,87 @@
    
    <div class="wrapper">
    	<nav id="sidebar" class="active" style="position: fixed;height: 100%;overflow: auto;scroll-behavior: smooth; ">
-   		<div class="sidebar-header">
+ 
+        
+   		
+   		<center>
 
+      <div id = "topics">
+
+   		<ul class="list-unstyled components">
+
+      <li>
+       <div id = "myWill">
+        <a href="https://msakabir.github.io/CourseSite/switch/">
         <div style="margin-top: 30%;margin-bottom: 5%; text-align: center;">
         <img src="pp.png" alt="Avatar" style="width:80%">
         </div>
 
-   			<center><h3>M. S. A. Kabir</h3></center>
-   		</div>
-   		
-   		<center>
-   		<ul class="list-unstyled components">
-   			<center><h4>Course Materials</h4></center>
+        <center><h3>M. S. A. Kabir</h3></center>
+        </a>
+        </div>
+      </li>
+
+
+
+   			<center><h4 style="padding-top: 5%;">Course Materials</h4></center>
    			<li>
-   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Analog</a>
+   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">PART</a>
    				<ul class="collapse list-unstyled" id="homeSubmenu">
+   					<li>
+              <button onclick="change()" style="color: rgb(150,150,150); background: none!important;border: none;width: 100%;  outline: none;cursor: pointer;"  id="an"><h2>Analog</h2></button>
+            </li>
+            <li>
+              <button onclick="change2()"  style="color: rgb(150,150,150);  background: none!important;border: none;width: 100%;outline: none;cursor: pointer;"  id="di"><h2>Digital</h2></button>
+            </li>
+           
    					
    				</ul> 
    			</li>
+
+        <div id ="subject" style="color: rgb(50,50,30); background: rgba(200,200,150,0.5); border: 1px solid rgb(0,0,40); margin: 2% 2%">
+          <h2>Digital</h2>
+        </div>  
    			
-        <li>
-   			<a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Digital</a>
-          <ul class="collapse list-unstyled" id="homeSubmenu2">
-            <li>
-              <a href="#mux">MUX & DEMUX</a>
+        <div id ="allsub" >
+        <div id ="ana">
+        
+            <li >
+              <a id = "mybjt" href="#bjt">BJT</a>
             </li>
             <li>
-              <a href="#encode">Encoder & Decoder</a>
+              <a id = "mymos" href="#mos">MOSFET</a>
             </li>
+            <li>
+              <a id = "myOA" href="#OA">Op-Amp</a>
+            </li>
+
+          </div>
+
+          <div id ="dig">
+
+            <li class="active">
+              <a id = "mymux" href="#mux">MUX & DEMUX</a>
+            </li>
+            <li>
+              <a id = "myencode" href="#encode">Encoder & Decoder</a>
+            </li>
+            <li>
+              <a id = "myLF" href="#LF">Latch & Flip-Flop</a>
+            </li>
+            <li>
+              <a id = "mytime555" href="#time555">555 Timer</a>
+            </li>
+
+          </div>
+         </div>   
             
-          </ul> 
-        </li>
-   			<!--li>
-   				<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Page</a>
-   				<ul class="collapse list-unstyled" id="pageSubmenu">
-   					<li>
-   						<a href="#">page1</a>
-   					</li>
-   					<li>
-   						<a href="#">page2</a>
-   					</li>
-   					<li>
-   						<a href="#">page3</a>
-   					</li>
-   				</ul> 
-   			</li-->
+       
    		
    		</ul>
+
+    </div>
    		</center>
-   		<!--ul class="list-unstyled CTAs">
-   			<li>
-   				<a href="#" class="download">Download code</a>
-   			</li>
-   			<li>
-   				<a href="#" class="article">article</a>
-   			</li>
-   		</ul-->
 
    	</nav>
    	
@@ -124,7 +150,10 @@
 
    </div>
 
-      <div id ="mux" >
+
+
+
+    <div id ="mux" >
     <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Multiplexer & Demultiplexer</u></h1>
 
       <h3><u>Materials</u></h3>
@@ -132,7 +161,7 @@
      <iframe src="https://drive.google.com/file/d/1g-4I5_Gtt0AP2QETEu6CDkMdqdDeo5US/preview"></iframe></center>
     
     </div>
-
+ 
 
     <div id ="encode" >
     <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Encoder & Decoder</u></h1>
@@ -142,8 +171,52 @@
      <iframe src="https://drive.google.com/file/d/19Po6j1AJfDdJAtub8SkcGbm69L5ORiCw/preview"></iframe></center>
     
     </div>
+
+
+    <div id ="LF" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Latch & Flip-Flop</u></h1>
+
+      <h3><u>Materials</u></h3>
     
     
+    </div>
+
+
+    <div id ="time555" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>555 Timer</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="bjt" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>BJT</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="mos" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>MOSFET</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="OA" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Operational Amplifier</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    </div>
+  
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -152,17 +225,191 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
     <script>
+
+/*
+     $(document).ready(function(){
+      $('#navbarNav').on('click','ul li',function(){
+        $(this).addClass('active').siblings().removeClass('active');
+      });
+    });  
+    */
+
+
+      
+     $("#mymux").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+        elem1.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+        window.location = "#mux";
+      });
+
+
+     $("#myencode").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+        elem2.style.display = "block";
+        elem1.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+        window.location = "#encode";
+      });
+
+
+     $("#myLF").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+        elem3.style.display = "block";
+        elem2.style.display = "none";
+        elem1.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+        window.location = "#LF";
+      });
+
+
+     $("#mytime555").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+        elem4.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem1.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+        window.location = "#time555";
+      });
+
+
+     $("#mybjt").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+        elem5.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem1.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+        window.location = "#bjt";
+      });
+
+     $("#mymos").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+        elem6.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem1.style.display = "none";
+        elem7.style.display = "none";
+        window.location = "#mos";
+      });
+
+     $("#myOA").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+        elem7.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+        window.location = "#OA";
+      });
+    
+
+
+    
 	    $(document).ready(function(){
-			$('#navbarNav').on('click','ul li',function(){
+			$('#allsub').on('click','li',function(){
+        $('#allsub li').removeClass('active');
 				$(this).addClass('active').siblings().removeClass('active');
 			});
 		});  
+   
+
+function change()
+{
+    var elem1 = document.getElementById("ana");
+    var elem2 = document.getElementById("dig");
+    var sub = document.querySelector("#subject");
+    elem2.style.display = "none";
+    elem1.style.display = "block";
+    sub.innerHTML = "<h2>Analog</h2>";
+}
+function change2()
+{
+    var elem1 = document.getElementById("ana");
+    var elem2 = document.getElementById("dig");
+    var sub = document.querySelector("#subject");
+    elem1.style.display = "none";
+    elem2.style.display = "block";
+    sub.innerHTML = "<h2>Digital</h2>";
+}
+
+
 
       $(document).ready(function(){
       $('#sidebarCollapse').on('click',function(){
         $('#sidebar').toggleClass('active');
       });
     }); 
+
+
+
+
+
+
+
 	</script>
     
     
