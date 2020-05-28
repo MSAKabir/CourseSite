@@ -15,7 +15,7 @@ html{
 }
 
 iframe{
-	width: 90%;
+	width: 50%;
 	height: 600px;
 }
 
@@ -91,10 +91,20 @@ a:focus{
 }
 
 #sidebar ul li #myWill{
+	margin-top: 20%;
+	margin-bottom: 5%; 
 	padding: 0px;
+	text-align: center;
+	
 	background: rgba(0,0,50,0.2);
     color: rgba(230,230,250,0.5);
 }
+img{
+	padding-top:20px;
+	height: 180px;
+	width: auto;
+}
+
 
 #sidebar ul li #myWill a:hover{
 	background: rgba(50,0,0,0.5);
@@ -131,38 +141,13 @@ a:focus{
     background: rgba(200,200,190,0.5);
 }
 
-/*a[data-toggle="collapse"] {
-    position: relative;
-}
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}*/
-
-
-/*
-ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: rgb(80,80,80);
-}
-
-a.article,
-a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
-}
-*/
-
 #content {
     width: 100%;
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
 }
+
 
 @media(max-width:768px){
 	#sidebar.active{margin-left: -250px;}
@@ -180,6 +165,22 @@ a.article:hover {
     color: rgb(0,0,20);
     background: rgba(200,200,190,0.5);
 }
+
+#sidebar ul li #myWill{
+	margin-top: 15%;
+	padding: 0px;
+	margin-bottom: 4%; 
+	text-align: center;
+	background: rgba(0,0,50,0.2);
+    color: rgba(230,230,250,0.5);
+}
+img{
+	padding-top: 20px;
+	height: 100px;
+	width: auto;
+}
+
+
 
 }
 
