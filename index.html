@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="shortcut icon" type = "image/x-icon" href = "favicon.png">
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+
+
+</script>
+
+
+
+
     <title>Course Site</title>
   </head>
   <body>
@@ -42,10 +53,10 @@
    			<center><h4 style="padding-top: 5%;">Course Materials</h4></center>
    			<li>
           <div id ="ppaarrtt">
-            <div id = "opt1">
+            <div id = "opt1" class = "dekhao">
    				<a  href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" style="border: 4px solid black;"><h4>Part <i class="fa fa-chevron-circle-down"></i></h4> </a>
         </div>
-        <div id = "opt2">
+        <div id = "opt2" class = "lukao">
           <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" style="border: 4px solid black;"><h4>Part <i class="fa fa-chevron-circle-up"></i></h4> </a>
           </div>
         </div>
@@ -393,19 +404,33 @@
     */
 
 
- $("#opt1").on('click', function() {
-  var elem1 = document.getElementById("opt1");
-  var elem2 = document.getElementById("opt2");
-  elem2.style.display = "block";
-  elem1.style.display = "none";
- });
+ // $("#opt1").on('click', function() {
+ //  var elem1 = document.getElementById("opt1");
+ //  var elem2 = document.getElementById("opt2");
+ //  elem1.classList.add("lukao");
+ //  elem2.classList.remove("lukao");
+ // });
+
+ // $("#opt2").on('click', function() {
+ //  var elem1 = document.getElementById("opt1");
+ //  var elem2 = document.getElementById("opt2");
+ //  elem2.classList.add("lukao");
+ //  elem1.classList.remove("lukao");
+ // });
+
+  $("#opt1").on('click', function() {
+  $("#opt1").removeClass( "dekhao").addClass("lukao");
+  $("#opt2").removeClass( "lukao").addClass("dekhao");
+ $("#opt2").addClass( "notouch").delay(500).queue(function(){
+    $(this).removeClass("notouch").dequeue();});
+});
 
  $("#opt2").on('click', function() {
-  var elem1 = document.getElementById("opt1");
-  var elem2 = document.getElementById("opt2");
-  elem1.style.display = "block";
-  elem2.style.display = "none";
- });
+  $("#opt2").removeClass( "dekhao").addClass("lukao");
+  $("#opt1").removeClass( "lukao").addClass("dekhao");
+ $("#opt1").addClass( "notouch").delay(500).queue(function(){
+    $(this).removeClass("notouch").dequeue();});
+});
 
       
      $("#mymux").on('click', function() {

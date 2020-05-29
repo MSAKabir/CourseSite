@@ -33,11 +33,19 @@ p{font-family: 'Poppins', sans-serif;
 	margin: 25px 0 25px 0;
 }
 
-#opt2{
+#opt1,#opt2{
+
+}
+#opt1.lukao,#opt2.lukao{
 	display: none;
 }
-#opt1{
+#opt1.dekhao,#opt2.dekhao{
 	display: block;
+}
+.notouch{
+
+	pointer-events:none;
+
 }
 
 hr.hr1,hr.hr2{
