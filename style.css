@@ -20,6 +20,10 @@ iframe{
 }
 
 
+.fmid{
+    margin: 0 auto;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -135,7 +139,7 @@ img{
 }
 
 
-#sidebar ul li.active>a,
+#sidebar ul li.active>a
 {
     color: rgb(0,0,20);
     background: rgba(200,200,190,0.5);
