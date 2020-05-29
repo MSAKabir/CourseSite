@@ -11,8 +11,12 @@ p{font-family: 'Poppins', sans-serif;
 
 #mux iframe, #encode iframe,#LF iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
 {
-	width: 50%;
+	width: 60%;
 	height: 620px;
+	border: 3px solid rgb(0,0,100);
+	padding: 1%;
+	border-radius: 10px;
+	background: rgba(250,250,230,0.5);
 }
 
 #mux h2, #encode h2,#LF h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
@@ -130,8 +134,8 @@ a:focus{
     color: rgba(230,230,250,0.5);
 }
 img{
-	padding-top:60px;
-	height: 220px;
+	padding-top:10px;
+	height: 160px;
 	width: auto;
 }
 
@@ -208,8 +212,8 @@ background: rgba(250,250,240,0.5);
 
 #mux iframe, #encode iframe,#LF iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
 {
-	width: 50%;
-	height: 300px;
+	width: 90%;
+	height: 400px;
 }
 
 #mux h3, #encode h3,#LF h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
