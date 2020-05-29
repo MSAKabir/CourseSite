@@ -216,6 +216,9 @@ background: rgba(250,250,240,0.5);
 	height: 400px;
 }
 
+#mux h2, #encode h2,#LF h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
+	padding-top: 80px;
+}
 #mux h3, #encode h3,#LF h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
 	margin: 20px 0 10px 0;
 }
