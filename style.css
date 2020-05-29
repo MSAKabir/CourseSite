@@ -9,6 +9,16 @@ p{font-family: 'Poppins', sans-serif;
 }
 
 
+hr.hr1,hr.hr2{
+	height: 1px;
+    color: rgb(50,0,0);
+    background-color: rgb(50,0,0);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 0px;
+
+}
+
 
 html{
 	scroll-behavior: smooth;
@@ -41,6 +51,9 @@ iframe{
 	display: none;
 }
 
+#NS,#LG,#BA,#KMP,#AS,#D,#RF,#CC,#ZD{
+	display: none;
+}
   
 #ana{
 	display: none;
@@ -72,16 +85,13 @@ a:focus{
 	border: none;
 }
 
-.line{
-	width: 100%;
-	height: 1px;
-	border-bottom: 1px dashed #ddd;
-}
+
 
 .wrapper {
     display: flex;
     width: 100%;
     align-items: stretch;
+
 }
 #sidebar {
     min-width: 250px;
@@ -94,18 +104,19 @@ a:focus{
 	margin-left: -250px;
 }
 
+#
+
 #sidebar ul li #myWill{
 	margin-top: 20%;
 	margin-bottom: 5%; 
 	padding: 0px;
 	text-align: center;
-	
 	background: rgba(0,0,50,0.2);
     color: rgba(230,230,250,0.5);
 }
 img{
-	padding-top:20px;
-	height: 180px;
+	padding-top:60px;
+	height: 220px;
 	width: auto;
 }
 
@@ -118,7 +129,6 @@ img{
 
 #sidebar ul.components{
 	padding: 20px 0px;
-	border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p{
@@ -133,8 +143,25 @@ img{
 	display: block;
 }
 
+#homeSubmenu li button{
+    color: rgb(150,150,100);
+    background: rgba(0,10,0,0.5);
+    text-decoration: none;
+}
+
+#homeSubmenu li button:hover{
+background: rgba(250,250,240,0.5);
+ color: rgb(20,20,50);
+}
+
+
+
+
+
+
 #sidebar ul li a:hover{
     color: rgb(150,150,100);
+    background: rgba(0,0,20,0.5);
     text-decoration: none;
 }
 
@@ -185,7 +212,10 @@ img{
 }
 
 
-
+#sidebar ul li #ppaarrtt a:hover{
+color: rgb(150,150,100);
+   background: rgba(0,0,20,0.5);
+}
 }
 
 

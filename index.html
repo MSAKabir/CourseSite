@@ -22,7 +22,6 @@
    		
    		<center>
 
-      <div id = "topics">
 
    		<ul class="list-unstyled components">
 
@@ -42,25 +41,46 @@
 
    			<center><h4 style="padding-top: 5%;">Course Materials</h4></center>
    			<li>
-   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" ><h4>Part <i class="fa fa-chevron-circle-down"></i></h4> </a>
+          <div id ="ppaarrtt">
+   				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" style="border: 4px solid black;"><h4>Part <i class="fa fa-chevron-circle-down"></i></h4> </a>
+        </div>
    				<ul class="collapse list-unstyled" id="homeSubmenu">
    					<li>
-              <button onclick="change()" style="color: rgb(150,150,150); background: none!important;border: none;width: 100%;  outline: none;cursor: pointer;"  id="an"><h5>Analog</h5></button>
+              <button onclick="change()" style="border: 3px solid black;margin-top: 1px;width: 100%;  outline: none;cursor: pointer;"  id="an"><h5>Analog</h5></button>
             </li>
             <li>
-              <button onclick="change2()"  style="color: rgb(150,150,150);  background: none!important;border: none;width: 100%;outline: none;cursor: pointer;"  id="di"><h5>Digital</h5></button>
+              <button onclick="change2()"  style="border: 3px solid black;margin-top: 1px;width: 100%;outline: none;cursor: pointer;"  id="di"><h5>Digital</h5></button>
             </li>
            
    					
    				</ul> 
    			</li>
 
-        <div id ="subject" style="color: rgb(50,50,30); background: rgba(200,200,150,0.5); border: 1px solid rgb(0,0,40); margin: 2% 2%">
+        <div id ="subject" style="color: rgb(50,50,30); background: rgba(200,200,150,0.5); border: 3px solid rgb(0,0,40); margin: 2% 0%;cursor: context-menu;">
           <h2>Digital</h2>
         </div>  
    			
         <div id ="allsub" >
         <div id ="ana">
+
+
+          <li >
+              <a id = "myD" href="#D">Diode</a>
+            </li>
+
+            <li >
+              <a id = "myRF" href="#RF">Rectifier</a>
+            </li>
+
+            <li >
+              <a id = "myCC" href="#CC">Clipper & Clamper</a>
+            </li>
+
+            <li >
+              <a id = "myZD" href="#ZD">Zener Diode</a>
+            </li>
+
+
         
             <li >
               <a id = "mybjt" href="#bjt">BJT</a>
@@ -76,15 +96,38 @@
 
           <div id ="dig">
 
+             <li>
+              <a id = "myNS" href="#NS">Number System</a>
+            </li>
+
+             <li>
+              <a id = "myLG" href="#LG">Logic Gates</a>
+            </li>
+
+             <li>
+              <a id = "myBA" href="#encode">Boolean Algebra</a>
+            </li>
+
+             <li>
+              <a id = "myKMP" href="#encode">K-Map</a>
+            </li>
+
+             <li>
+              <a id = "myAS" href="#AS">Adder & Subtractor</a>
+            </li>
+
             <li class="active">
               <a id = "mymux" href="#mux">MUX & DEMUX</a>
             </li>
+
             <li>
               <a id = "myencode" href="#encode">Encoder & Decoder</a>
             </li>
+
             <li>
               <a id = "myLF" href="#LF">Latch & Flip-Flop</a>
             </li>
+
             <li>
               <a id = "mytime555" href="#time555">555 Timer</a>
             </li>
@@ -92,12 +135,16 @@
           </div>
          </div>   
             
-       
+        <hr class = "hr1">
+     <hr class = "hr2">
    		
    		</ul>
+     
+    
 
-    </div>
-   		</center>
+  
+  
+   </center>
 
    	</nav>
    	
@@ -151,6 +198,51 @@
 
    </div>
 
+<div id ="NS" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Number System</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+<div id ="LG" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Logic Gates</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="BA" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Boolean Algebra</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="KMP" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Karnaugh Map</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="AS" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Adder & Subtractor</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
 
 
 
@@ -159,7 +251,16 @@
 
       <h3><u>Materials</u></h3>
     
-     <iframe src="https://drive.google.com/file/d/1g-4I5_Gtt0AP2QETEu6CDkMdqdDeo5US/preview"></iframe></center>
+     <iframe src="https://drive.google.com/file/d/1g-4I5_Gtt0AP2QETEu6CDkMdqdDeo5US/preview"></iframe>
+
+ 
+
+    <br>
+    <a href="https://drive.google.com/uc?export=download&id=1g-4I5_Gtt0AP2QETEu6CDkMdqdDeo5US" download><button type="button" class="btn btn-outline-dark" style="">Download <i class="fa fa-download"></i></button></a>
+
+  </center>
+
+ 
     
     </div>
  
@@ -169,16 +270,30 @@
 
       <h3><u>Materials</u></h3>
     
-     <iframe src="https://drive.google.com/file/d/19Po6j1AJfDdJAtub8SkcGbm69L5ORiCw/preview"></iframe></center>
+     <iframe src="https://drive.google.com/file/d/19Po6j1AJfDdJAtub8SkcGbm69L5ORiCw/preview"></iframe>
     
+
+    <br>
+    <a href="https://drive.google.com/uc?export=download&id=19Po6j1AJfDdJAtub8SkcGbm69L5ORiCw" download><button type="button" class="btn btn-outline-dark" style="">Download <i class="fa fa-download"></i></button></a>
+     
+     </center>
     </div>
+
+
+
 
 
     <div id ="LF" >
     <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Latch & Flip-Flop</u></h1>
 
       <h3><u>Materials</u></h3>
+    <iframe src="https://drive.google.com/file/d/1RF66vDtNeqzi2rHq5y-9z0EOR0Jmfycl/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1RF66vDtNeqzi2rHq5y-9z0EOR0Jmfycl" download><button type="button" class="btn btn-outline-dark" style="">Download <i class="fa fa-download"></i></button></a>
     
+  </center>
+
     
     </div>
 
@@ -192,8 +307,45 @@
     </div>
 
 
+<div id ="D" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Diode</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="RF" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Rectifier</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="CC" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Clipper & Clamper</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="ZD" >
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Zener Diode</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+   
     <div id ="bjt" >
-    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>BJT</u></h1>
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Bipolar Junction Transistor</u></h1>
 
       <h3><u>Materials</u></h3>
     
@@ -202,7 +354,7 @@
 
 
     <div id ="mos" >
-    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>MOSFET</u></h1>
+    <center> <h1 style="padding-top: 120px;color: rgb(0,0,100)"><u>Metal-Oxide Semiconductor Field-Effect Transistor</u></h1>
 
       <h3><u>Materials</u></h3>
     
@@ -245,6 +397,17 @@
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
         var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
         elem1.style.display = "block";
         elem2.style.display = "none";
         elem3.style.display = "none";
@@ -252,6 +415,17 @@
         elem5.style.display = "none";
         elem6.style.display = "none";
         elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
         window.location = "#mux";
       });
 
@@ -264,6 +438,17 @@
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
         var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
         elem2.style.display = "block";
         elem1.style.display = "none";
         elem3.style.display = "none";
@@ -271,6 +456,18 @@
         elem5.style.display = "none";
         elem6.style.display = "none";
         elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+
         window.location = "#encode";
       });
 
@@ -283,6 +480,18 @@
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
         var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
         elem3.style.display = "block";
         elem2.style.display = "none";
         elem1.style.display = "none";
@@ -290,6 +499,17 @@
         elem5.style.display = "none";
         elem6.style.display = "none";
         elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
         window.location = "#LF";
       });
 
@@ -302,6 +522,18 @@
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
         var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
         elem4.style.display = "block";
         elem2.style.display = "none";
         elem3.style.display = "none";
@@ -309,6 +541,17 @@
         elem5.style.display = "none";
         elem6.style.display = "none";
         elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
         window.location = "#time555";
       });
 
@@ -321,6 +564,17 @@
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
         var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
         elem5.style.display = "block";
         elem2.style.display = "none";
         elem3.style.display = "none";
@@ -328,6 +582,18 @@
         elem1.style.display = "none";
         elem6.style.display = "none";
         elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+
         window.location = "#bjt";
       });
 
@@ -339,6 +605,17 @@
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
         var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
         elem6.style.display = "block";
         elem2.style.display = "none";
         elem3.style.display = "none";
@@ -346,6 +623,18 @@
         elem5.style.display = "none";
         elem1.style.display = "none";
         elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+
         window.location = "#mos";
       });
 
@@ -357,6 +646,18 @@
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
         var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
         elem7.style.display = "block";
         elem2.style.display = "none";
         elem3.style.display = "none";
@@ -364,9 +665,421 @@
         elem5.style.display = "none";
         elem6.style.display = "none";
         elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+
         window.location = "#OA";
       });
     
+
+
+     $("#myNS").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem8.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem7.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#NS";
+      });
+
+
+
+     $("#myLG").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem9.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem7.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#LG";
+      });
+
+
+
+    $("#myBA").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem10.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem7.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#BA";
+      });
+
+
+      $("#myKMP").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem11.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem7.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#KMP";
+      });
+
+
+     $("#myAS").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem12.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem7.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#AS";
+      });
+
+
+   $("#myD").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem13.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem7.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#D";
+      });
+
+
+ $("#myRF").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem14.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem7.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#RF";
+      });
+
+
+
+     $("#myCC").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem15.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem7.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#CC";
+      });
+
+
+    $("#myZD").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem16.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem7.style.display = "none";
+
+        
+        window.location = "#ZD";
+      });
+
+
+
+
+
+
+
+
+
+
 
 
     
