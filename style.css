@@ -32,6 +32,14 @@ p{font-family: 'Poppins', sans-serif;
 {
 	margin: 25px 0 25px 0;
 }
+
+#opt2{
+	display: none;
+}
+#opt1{
+	display: block;
+}
+
 hr.hr1,hr.hr2{
 	height: 1px;
     color: rgb(50,0,0);
