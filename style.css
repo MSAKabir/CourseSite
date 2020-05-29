@@ -9,6 +9,25 @@ p{font-family: 'Poppins', sans-serif;
 }
 
 
+#mux iframe, #encode iframe,#LF iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
+{
+	width: 50%;
+	height: 620px;
+}
+
+#mux h2, #encode h2,#LF h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
+	padding-top: 100px;
+	color: rgb(0,0,100);
+}
+
+#mux h3, #encode h3,#LF h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
+	margin: 50px 0 25px 0;
+}
+
+#mux button, #encode button,#LF button,#time555 button,#bjt button,#mos button,#OA button, #NS button,#LG button,#BA button,#KMP button,#AS button,#D button,#RF button,#CC button,#ZD button
+{
+	margin: 25px 0 25px 0;
+}
 hr.hr1,hr.hr2{
 	height: 1px;
     color: rgb(50,0,0);
@@ -24,10 +43,6 @@ html{
 	scroll-behavior: smooth;
 }
 
-iframe{
-	width: 50%;
-	height: 620px;
-}
 
 
 .fmid{
@@ -104,7 +119,7 @@ a:focus{
 	margin-left: -250px;
 }
 
-#
+
 
 #sidebar ul li #myWill{
 	margin-top: 20%;
@@ -188,10 +203,24 @@ background: rgba(250,250,240,0.5);
 	#sidebarCollapse span{
 		display: none;
 	}
-	iframe{
-	width: 90%;
+
+
+
+#mux iframe, #encode iframe,#LF iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
+{
+	width: 50%;
 	height: 300px;
 }
+
+#mux h3, #encode h3,#LF h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
+	margin: 20px 0 10px 0;
+}
+
+#mux button, #encode button,#LF button,#time555 button,#bjt button,#mos button,#OA button, #NS button,#LG button,#BA button,#KMP button,#AS button,#D button,#RF button,#CC button,#ZD button
+{
+	margin: 10px 0 10px 0;
+}
+
 #sidebar ul li a:hover {
     color: rgb(0,0,20);
     background: rgba(200,200,190,0.5);
