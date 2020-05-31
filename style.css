@@ -86,10 +86,10 @@ html{
   background: rgb(0,0,50);;
 }
 
-#mux{
+#encode{
 	display: block;
 }
-#encode,#LF,#time555,#bjt,#mos,#OA{
+#mux,#LF,#time555,#bjt,#mos,#OA{
 	display: none;
 }
 
