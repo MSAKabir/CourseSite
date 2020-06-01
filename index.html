@@ -455,19 +455,32 @@
  //  elem1.classList.remove("lukao");
  // });
 
+
+
+
+
   $("#opt1").on('click', function() {
+    var w = window.innerWidth;
+    if (w > 768){
   $("#opt1").removeClass( "dekhao").addClass("lukao");
   $("#opt2").removeClass( "lukao").addClass("dekhao");
  $("#opt2").addClass( "notouch").delay(500).queue(function(){
     $(this).removeClass("notouch").dequeue();});
+}
 });
 
  $("#opt2").on('click', function() {
+  var w = window.innerWidth;
+    if (w > 768){
   $("#opt2").removeClass( "dekhao").addClass("lukao");
   $("#opt1").removeClass( "lukao").addClass("dekhao");
  $("#opt1").addClass( "notouch").delay(500).queue(function(){
     $(this).removeClass("notouch").dequeue();});
+}
 });
+
+
+
 
       
      $("#mymux").on('click', function() {
