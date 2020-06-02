@@ -14,12 +14,13 @@ p{font-family: "Times New Roman", Times, serif;
 
 .navbar{
 	 box-shadow: 0 0 20px rgba(0,0,0,2)!important;
+	 background: rgb(40,40,40)!important;
 }
 
 .msak_buttons{
   color: #fff;
   border: none;
-  padding: 5px 5px;
+  padding: 5px 8px 5px 10px;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -42,15 +43,29 @@ p{font-family: "Times New Roman", Times, serif;
 }
 
 .msak_buttons-success.active{
-  background: rgba(250,250,250,0.8);
-   border: 5px solid rgba(0,0,0,1);
-   padding: 3px 3px;
-   color: rgba(0,0,0,2);
+  background: rgba(0,0,0,2);
+   border: 4px solid rgba(200,200,150,1);
+   padding: 4px 7px 4px 9px;
+   color: rgba(200,200,150,1);
   box-shadow: 0 0 10px rgba(120,120,130,2);
+  animation: try 0.8s ease-in-out infinite;
+ animation-direction: alternate;
 }
-.msak_buttons-success.active:hover{
+
+@keyframes try{
+  0%{
+   box-shadow: 0 0 10px rgba(120,120,130,2);
+}
+    100%{ 
+  box-shadow: 0 0 20px rgba(120,120,130,2);
+    }
+      
+      }
+
+
+/*.msak_buttons-success.active:hover{
   box-shadow: 0 0 15px rgba(160,160,180,2);
-}
+}*/
 
 .msak_buttons.msak_buttons-success,.msak_buttons.msak_buttons-success:hover,.msak_buttons.msak_buttons-success:active{
 	outline: 0;
