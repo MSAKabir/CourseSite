@@ -8,6 +8,31 @@ p{font-family: "Times New Roman", Times, serif;
 	color: #999;
 }
 
+
+/*.navbar-dark .navbar-toggler-icon{
+background-color: white!important;
+padding: 
+}
+*/
+/*.fancy-toggler.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(146, 65, 244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}*/
+.fancy-toggler.navbar-toggler .navbar-toggler-icon {
+  background-image: url("");
+}
+.fancy-toggler.navbar-toggler {
+  background: rgba(0,0,0,2);
+   border: 4px solid rgba(192,192,192,1);
+   color: rgba(192,192,192,1);
+  box-shadow: 0 0 10px rgba(192,192,192,2);
+  animation: try2 0.8s ease-in-out infinite;
+ animation-direction: alternate;
+}
+
+
+.fancy-toggler.navbar-toggler:focus {
+  outline: none;
+}
 .navbar.navbar-expand-xl.navbar-dark.bg-dark.fixed-top{
 	border-bottom: 5px solid rgb(50,50,50);
 }
@@ -19,7 +44,6 @@ p{font-family: "Times New Roman", Times, serif;
 
 .msak_buttons{
   color: #fff;
-  border: none;
   padding: 5px 8px 5px 10px;
   font-size: 15px;
   font-weight: 600;
@@ -39,6 +63,7 @@ p{font-family: "Times New Roman", Times, serif;
   box-shadow: 0 0 5px rgba(250,250,250,0.8);
 }
 .msak_buttons-success:hover{
+	text-shadow: 0 0 10px rgba(250,250,200,1);
   box-shadow: 0 0 10px rgba(250,250,200,1);
 }
 
@@ -58,6 +83,16 @@ p{font-family: "Times New Roman", Times, serif;
 }
     100%{ 
   box-shadow: 0 0 20px rgba(120,120,130,2);
+    }
+      
+      }
+
+      @keyframes try2{
+  0%{
+   box-shadow: 0 0 5px rgba(192,192,192,1);
+}
+    100%{ 
+  box-shadow: 0 0 8px rgba(192,192,192,1);
     }
       
       }
