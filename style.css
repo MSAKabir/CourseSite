@@ -9,12 +9,12 @@ p{font-family: "Times New Roman", Times, serif;
 }
 
 .navbar.navbar-expand-xl.navbar-dark.bg-dark.fixed-top{
-	border-bottom: 5px solid black;
+	border-bottom: 5px solid rgb(50,50,50);
 }
 
 .navbar{
 	 box-shadow: 0 0 20px rgba(0,0,0,2)!important;
-	 background: rgb(40,40,40)!important;
+	 background: rgb(10,10,20)!important;
 }
 
 .msak_buttons{
