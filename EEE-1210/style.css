@@ -138,7 +138,7 @@ padding:
   box-shadow: 0 0 10px rgba(0,0,30,0.8);
 }
 
-#KMP img,#mux iframe, #encode iframe,#LF iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
+#KMP img,#mux iframe, #Manual iframe,#LF iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
 {
 	width: 60%;
 	height: 620px;
@@ -152,16 +152,16 @@ padding:
 	margin: 25px 0 35px 0;
 }
 
-#mux h2, #encode h2,#LF h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
+#mux h2, #Manual h2,#LF h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
 	padding-top: 120px;
 	color: rgb(0,0,100);
 }
 
-#mux h3, #encode h3,#LF h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
+#mux h3, #Manual h3,#LF h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
 	margin: 50px 0 25px 0;
 }
 
-#mux button, #encode button,#LF button,#time555 button,#bjt button,#mos button,#OA button, #NS button,#LG button,#BA button,#KMP button,#AS button,#D button,#RF button,#CC button,#ZD button
+#mux button, #Manual button,#LF button,#time555 button,#bjt button,#mos button,#OA button, #NS button,#LG button,#BA button,#KMP button,#AS button,#D button,#RF button,#CC button,#ZD button
 {
 	margin: 25px 0 25px 0;
 }
@@ -221,7 +221,7 @@ html{
   background: rgb(0,0,50);;
 }
 
-#encode{
+#Manual{
 	display: block;
 }
 #mux,#LF,#time555,#bjt,#mos,#OA{
@@ -384,7 +384,7 @@ background: rgba(250,250,240,0.5);
 }
 
 
-#KMP img,#mux iframe, #encode iframe,#LF iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
+#KMP img,#mux iframe, #Manual iframe,#LF iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
 {
 	width: 90%;
 	height: 400px;
@@ -392,14 +392,14 @@ background: rgba(250,250,240,0.5);
 #KMP img{
 	height: 350px;
 }
-#mux h2, #encode h2,#LF h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
+#mux h2, #Manual h2,#LF h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
 	padding-top: 100px;
 }
-#mux h3, #encode h3,#LF h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
+#mux h3, #Manual h3,#LF h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
 	margin: 20px 0 10px 0;
 }
 
-#mux button, #encode button,#LF button,#time555 button,#bjt button,#mos button,#OA button, #NS button,#LG button,#BA button,#KMP button,#AS button,#D button,#RF button,#CC button,#ZD button
+#mux button, #Manual button,#LF button,#time555 button,#bjt button,#mos button,#OA button, #NS button,#LG button,#BA button,#KMP button,#AS button,#D button,#RF button,#CC button,#ZD button
 {
 	margin: 10px 0 10px 0;
 }

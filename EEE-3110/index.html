@@ -60,9 +60,12 @@
 
 
             <li class="active">
-              <a id = "myencode" href="#encode">Lab Manual</a>
+              <a id = "myencode" href="#Manual">Lab Manual</a>
             </li>
-
+         
+            <li>
+              <a id = "myInterpolation" href="#Interpolation">Interpolation</a>
+            </li>
 
           </div>
          </div>   
@@ -139,19 +142,59 @@
 
  
 
-    <div id ="encode" >
+    <div id ="Manual" >
     <center> <h2><u>Lab Manual</u></h2>
 
-     
     
-     <iframe src="https://drive.google.com/file/d/18kCwnlFrkMGdQrgkapL5Yukq9QvakCN3/preview"></iframe>
+     <iframe src="https://drive.google.com/file/d/18kCwnInterpolationrkMGdQrgkapL5Yukq9QvakCN3/preview"></iframe>
 
     <br>
     
-    <a href="https://drive.google.com/uc?export=download&id=18kCwnlFrkMGdQrgkapL5Yukq9QvakCN3" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    <a href="https://drive.google.com/uc?export=download&id=18kCwnInterpolationrkMGdQrgkapL5Yukq9QvakCN3" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
     
 
      </center>
+    </div>
+
+    <div id ="Interpolation" >
+    <center> <h2><u>Interpolation</u></h2>
+
+    <h3><u>Part-1 (Theory)</u></h3>
+
+
+    <iframe src="https://drive.google.com/file/d/13qEZ6u68O_dAIU6k7lG1p4zBdVm-rbVa/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=13qEZ6u68O_dAIU6k7lG1p4zBdVm-rbVa" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+    <h3><u>Part-2 (Codes)</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1cKp-u-R_ljNGF2-EaKjKgspHPvaWsq3F/preview"></iframe>
+
+    <br>  
+
+    <a href="https://drive.google.com/uc?export=download&id=1cKp-u-R_ljNGF2-EaKjKgspHPvaWsq3F" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>  
+
+ <h3><u>Materials</u></h3>
+
+      <h4><u>Part-1 (Theory)</u></h4>
+      <iframe src="https://drive.google.com/file/d/1ZV4Zn1oLSkjX73egUeU07xGbkmAM4gcK/preview"></iframe>
+      <br> <br>
+
+      <h4><u>Part-2 (Codes)</u></h4>
+      <iframe src="https://drive.google.com/file/d/1FfmnbqaZ2XBmAX3gNC4V8ZGjTw-3oYvp/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1piFhei5S444OerDezGNvSYLDt2g-KqOF" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    
+    </center>
+    
+    
     </div>
 
 
@@ -222,8 +265,8 @@
       
      $("#mymux").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -263,8 +306,8 @@
 
      $("#myencode").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -299,14 +342,14 @@
         elem16.style.display = "none";
 
 
-        window.location = "#encode";
+        window.location = "#Manual";
       });
 
 
-     $("#myLF").on('click', function() {
+     $("#myInterpolation").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -341,14 +384,14 @@
         elem15.style.display = "none";
         elem16.style.display = "none";
 
-        window.location = "#LF";
+        window.location = "#Interpolation";
       });
 
 
      $("#mytime555").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -389,8 +432,8 @@
 
      $("#mybjt").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -430,8 +473,8 @@
 
      $("#mymos").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -471,8 +514,8 @@
 
      $("#myOA").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -515,8 +558,8 @@
 
      $("#myNS").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -559,8 +602,8 @@
 
      $("#myLG").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -603,8 +646,8 @@
 
     $("#myBA").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -646,8 +689,8 @@
 
       $("#myKMP").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -689,8 +732,8 @@
 
      $("#myAS").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -732,8 +775,8 @@
 
    $("#myD").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -775,8 +818,8 @@
 
  $("#myRF").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -819,8 +862,8 @@
 
      $("#myCC").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
@@ -862,8 +905,8 @@
 
     $("#myZD").on('click', function() {
         var elem1 = document.getElementById("mux");
-        var elem2 = document.getElementById("encode");
-        var elem3 = document.getElementById("LF");
+        var elem2 = document.getElementById("Manual");
+        var elem3 = document.getElementById("Interpolation");
         var elem4 = document.getElementById("time555");
         var elem5 = document.getElementById("bjt");
         var elem6 = document.getElementById("mos");
