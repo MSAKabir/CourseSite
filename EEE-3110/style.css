@@ -1,0 +1,469 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body{font-family: "Times New Roman", Times, serif;
+     background: rgb(240,240,255);}
+p{font-family: "Times New Roman", Times, serif;
+  font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	color: #999;
+}
+
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+    margin-left: 10%;
+}
+.carousel-control-next{
+	margin-right: 10%;
+}
+
+.carousel-indicators li{
+    background-color: rgba(0,0,50,0.5);
+}
+
+
+.carousel-indicators .active{
+    background-color: rgb(0,0,0);
+}
+/*.navbar-dark .navbar-toggler-icon{
+background-color: white!important;
+padding: 
+}
+*/
+/*.fancy-toggler.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(146, 65, 244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}*/
+.fancy-toggler.navbar-toggler .navbar-toggler-icon {
+  background-image: url("");
+}
+.fancy-toggler.navbar-toggler {
+  background: rgba(0,0,0,2);
+   border: 4px solid rgba(192,192,192,1);
+   color: rgba(192,192,192,1);
+  box-shadow: 0 0 10px rgba(192,192,192,2);
+  animation: try2 0.8s ease-in-out infinite;
+ animation-direction: alternate;
+}
+
+
+.fancy-toggler.navbar-toggler:focus {
+  outline: none;
+}
+.navbar.navbar-expand-xl.navbar-dark.bg-dark.fixed-top{
+	border-bottom: 5px solid rgb(50,50,50);
+}
+
+.navbar{
+	 box-shadow: 0 0 20px rgba(0,0,0,2)!important;
+	 background: rgb(10,10,20)!important;
+}
+
+.msak_buttons{
+  color: #fff;
+  padding: 5px 8px 5px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
+  transition-property: box-shadow;
+  border: 3px solid rgba(250,250,250,2);
+}
+
+
+
+.msak_buttons-success{
+  background: rgba(50,50,50,0.8);
+  box-shadow: 0 0 5px rgba(250,250,250,0.8);
+}
+.msak_buttons-success:hover{
+	text-shadow: 0 0 10px rgba(250,250,200,1);
+  box-shadow: 0 0 10px rgba(250,250,200,1);
+}
+
+.msak_buttons-success.active{
+  background: rgba(0,0,0,2);
+   border: 4px solid rgba(200,200,150,1);
+   padding: 4px 7px 4px 9px;
+   color: rgba(200,200,150,1);
+  box-shadow: 0 0 10px rgba(120,120,130,2);
+  animation: try 0.8s ease-in-out infinite;
+ animation-direction: alternate;
+}
+
+@keyframes try{
+  0%{
+   box-shadow: 0 0 10px rgba(120,120,130,2);
+}
+    100%{ 
+  box-shadow: 0 0 20px rgba(120,120,130,2);
+    }
+      
+      }
+
+      @keyframes try2{
+  0%{
+   box-shadow: 0 0 5px rgba(192,192,192,1);
+}
+    100%{ 
+  box-shadow: 0 0 8px rgba(192,192,192,1);
+    }
+      
+      }
+
+
+/*.msak_buttons-success.active:hover{
+  box-shadow: 0 0 15px rgba(160,160,180,2);
+}*/
+
+.msak_buttons.msak_buttons-success,.msak_buttons.msak_buttons-success:hover,.msak_buttons.msak_buttons-success:active{
+	outline: 0;
+}
+.msak_buttons.msak_buttons-success.active,.msak_buttons.msak_buttons-success.active:hover,.msak_buttons.msak_buttons-success.active:active{
+	outline: 0;
+}
+
+
+
+.msak_buttons.content,.msak_buttons.content:hover,.msak_buttons.content:active{
+	outline: 0;
+	color: rgba(250,250,250,0.8);
+   border: 3px solid rgba(250,250,250,0.8);
+   padding: 5px 5px;
+   background: rgba(0,0,0,2);
+  box-shadow: 0 0 10px rgba(0,0,30,0.8);
+}
+
+#KMP img,#mux iframe, #Manual iframe,#Interpolation iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
+{
+	width: 60%;
+	height: 620px;
+	border: 3px solid rgb(0,0,100);
+	padding: 1%;
+	border-radius: 10px;
+	background: rgba(250,250,230,0.5);
+}
+
+#KMP img{
+	margin: 25px 0 35px 0;
+}
+
+#mux h2, #Manual h2,#Interpolation h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
+	padding-top: 120px;
+	color: rgb(0,0,100);
+}
+
+#mux h3, #Manual h3,#Interpolation h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
+	margin: 50px 0 25px 0;
+}
+
+#mux button, #Manual button,#Interpolation button,#time555 button,#bjt button,#mos button,#OA button, #NS button,#LG button,#BA button,#KMP button,#AS button,#D button,#RF button,#CC button,#ZD button
+{
+	margin: 25px 0 25px 0;
+}
+#AS button.bangla{
+	margin: 15px 0 0px 0;
+}
+#opt1,#opt2{
+
+}
+#opt1.lukao,#opt2.lukao{
+	display: none;
+}
+#opt1.dekhao,#opt2.dekhao{
+	display: block;
+}
+.notouch{
+
+	pointer-events:none;
+
+}
+
+hr.hr1{
+	height: 5px;
+    background-color: rgb(30,0,0);
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 0px;
+
+}
+
+hr.hr2{
+	height: 6px;
+    background-color: rgb(20,0,0);
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding: 0px;
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+.fmid{
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(200,200,255);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(0,0,50);;
+}
+
+#Manual{
+	display: block;
+}
+#mux,#Interpolation,#time555,#bjt,#mos,#OA{
+	display: none;
+}
+
+#NS,#LG,#BA,#KMP,#AS,#D,#RF,#CC,#ZD{
+	display: none;
+}
+  
+#ana{
+	display: none;
+}
+#dig{
+	display: block;
+}
+
+a,
+a:hover
+a:focus{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.navbar{
+	padding: 15px 10px;
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 40px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.navbar-btn{
+	box-shadow: none;
+	outline: none!important;
+	border: none;
+}
+
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: rgba(0,0,0,0.8);
+    color: rgba(230,230,250,1);
+    transition: all 0.3s;
+}
+#sidebar.active{
+	margin-left: -250px;
+}
+
+
+
+#sidebar ul li #myWill{
+	margin-top: 25%;
+	margin-bottom: 5%; 
+	padding: 0px;
+	text-align: center;
+	background: rgba(0,0,50,0.2);
+    color: rgba(230,230,250,0.5);
+}
+img{
+	padding-top:10px;
+	height: 160px;
+	width: auto;
+}
+
+
+#sidebar ul li #myWill a:hover{
+	background: rgba(50,0,0,0.5);
+	color: rgb(150,150,125);
+	text-decoration: none;
+}
+
+#sidebar ul.components{
+	padding: 20px 0px;
+}
+
+#sidebar ul p{
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+
+#sidebar ul li a{
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+
+#homeSubmenu li button{
+    color: rgb(150,150,100);
+    background: rgba(0,10,0,0.5);
+    text-decoration: none;
+}
+
+#homeSubmenu li button:hover{
+background: rgba(250,250,240,0.5);
+ color: rgb(20,20,50);
+}
+
+
+
+
+
+
+#sidebar ul li a:hover{
+    color: rgb(150,150,100);
+    background: rgba(0,0,20,0.5);
+    text-decoration: none;
+}
+
+
+#sidebar ul li.active>a
+{
+    color: rgb(0,0,20);
+    background: rgba(200,200,190,0.5);
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+
+@media(max-width:1199px){
+.navbar-nav{
+	margin-top: 20px;
+}
+}
+
+
+
+@media(max-width:768px){
+	#sidebar.active{margin-left: -250px;}
+	#sidebar{
+		margin-left: 0px;
+	}
+	#sidebarCollapse span{
+		display: none;
+	}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+    margin-left: 0%;
+}
+.carousel-control-next{
+	margin-right: 0%;
+}
+
+
+#KMP img,#mux iframe, #Manual iframe,#Interpolation iframe,#time555 iframe,#bjt iframe,#mos iframe,#OA iframe, #NS iframe,#LG iframe,#BA iframe,#KMP iframe,#AS iframe,#D iframe,#RF iframe,#CC iframe,#ZD iframe
+{
+	width: 90%;
+	height: 400px;
+}
+#KMP img{
+	height: 350px;
+}
+#mux h2, #Manual h2,#Interpolation h2,#time555 h2,#bjt h2,#mos h2,#OA h2, #NS h2,#LG h2,#BA h2,#KMP h2,#AS h2,#D h2,#RF h2,#CC h2,#ZD h2{
+	padding-top: 100px;
+}
+#mux h3, #Manual h3,#Interpolation h3,#time555 h3,#bjt h3,#mos h3,#OA h3, #NS h3,#LG h3,#BA h3,#KMP h3,#AS h3,#D h3,#RF h3,#CC h3,#ZD h3{
+	margin: 20px 0 10px 0;
+}
+
+#mux button, #Manual button,#Interpolation button,#time555 button,#bjt button,#mos button,#OA button, #NS button,#LG button,#BA button,#KMP button,#AS button,#D button,#RF button,#CC button,#ZD button
+{
+	margin: 10px 0 10px 0;
+}
+
+#KMP button.btn.btn-outline-info{
+	margin-bottom: 0px;
+}
+
+#sidebar ul li #myWill a{
+	background: rgba(50,0,0,0.5);
+	color: rgb(150,150,125);
+	text-decoration: none;
+}
+/*#sidebar ul li a:hover {
+    color: rgb(0,0,20);
+    background: rgba(200,200,190,0.5);
+}*/
+
+#sidebar ul li #myWill{
+	margin-top: 20%;
+	padding: 0px;
+	margin-bottom: 4%; 
+	text-align: center;
+	background: rgba(0,0,50,0.2);
+    color: rgba(230,230,250,0.5);
+}
+img{
+	padding-top: 10px;
+	height: 80px;
+	width: auto;
+}
+
+
+#sidebar ul li #ppaarrtt a:hover{
+color: rgb(150,150,100);
+   background: rgba(0,0,20,0.5);
+}
+/*#opt1.dekhao,#opt2.dekhao{
+	display: block;
+	color: rgb(150,150,100);
+   background: rgba(0,0,20,0.5);
+}*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

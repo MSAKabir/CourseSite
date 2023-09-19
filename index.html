@@ -1,0 +1,1669 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type = "image/x-icon" href = "favicon.png">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+
+
+</script>
+
+
+
+
+    <title>Course Site</title>
+  </head>
+  <body>
+   
+   <div class="wrapper">
+   	<nav id="sidebar" class="active" style="position: fixed;height: 100%;overflow: auto;scroll-behavior: smooth; z-index: 1;">
+ 
+        
+   		
+   		<center>
+
+
+   		<ul class="list-unstyled components">
+
+      <li>
+       <div id = "myWill">
+        <a href="https://msakabir.github.io/CourseSite/switch/" target="_blank">
+        <div style="">
+        <img src="pp.png" alt="Avatar">
+        </div>
+
+        <center><h3>M. S. A. Kabir</h3></center>
+        </a>
+        </div>
+      </li>
+
+
+
+   			<center><h4 style="padding-top: 5%;">Course Materials</h4></center>
+   			<li>
+          <div id ="ppaarrtt">
+            <div id = "opt1" class = "dekhao">
+   				<a  href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" style="border: 4px solid black;"><h4>Part <i class="fa fa-chevron-circle-down"></i></h4> </a>
+        </div>
+        <div id = "opt2" class = "lukao">
+          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" style="border: 4px solid black;"><h4>Part <i class="fa fa-chevron-circle-up"></i></h4> </a>
+          </div>
+        </div>
+   				<ul class="collapse list-unstyled" id="homeSubmenu">
+   					<li>
+              <button onclick="change()" style="border: 3px solid black;margin-top: 1px;width: 100%;  outline: none;cursor: pointer;"  id="an"><h5>Analog</h5></button>
+            </li>
+            <li>
+              <button onclick="change2()"  style="border: 3px solid black;margin-top: 1px;width: 100%;outline: none;cursor: pointer;"  id="di"><h5>Digital</h5></button>
+            </li>
+           
+   					
+   				</ul> 
+   			</li>
+
+        <div id ="subject" style="color: rgb(50,50,30); background: rgba(200,200,150,0.5); border: 3px solid rgb(0,0,40); margin: 2% 0%;cursor: context-menu;">
+          <h2>Digital</h2>
+        </div>  
+   			
+        <div id ="allsub" >
+        <div id ="ana">
+
+
+          <li >
+              <a id = "myD" href="#D">Diode</a>
+            </li>
+
+            <li >
+              <a id = "myRF" href="#RF">Rectifier</a>
+            </li>
+
+            <li >
+              <a id = "myCC" href="#CC">Clipper & Clamper</a>
+            </li>
+
+            <li >
+              <a id = "myZD" href="#ZD">Zener Diode</a>
+            </li>
+
+
+        
+            <li >
+              <a id = "mybjt" href="#bjt">BJT</a>
+            </li>
+            <li>
+              <a id = "mymos" href="#mos">FET</a>
+            </li>
+            <li>
+              <a id = "myOA" href="#OA">Op-Amp</a>
+            </li>
+
+          </div>
+
+          <div id ="dig">
+
+             <li>
+              <a id = "myNS" href="#NS">Number System</a>
+            </li>
+
+             <li>
+              <a id = "myLG" href="#LG">Logic Gates</a>
+            </li>
+
+             <li>
+              <a id = "myBA" href="#BA">Boolean Algebra</a>
+            </li>
+
+             <li>
+              <a id = "myKMP" href="#KMP">K-Map</a>
+            </li>
+
+             <li>
+              <a id = "myAS" href="#AS">Adder & Subtractor</a>
+            </li>
+
+            <li>
+              <a id = "mymux" href="#mux">MUX & DEMUX</a>
+            </li>
+
+            <li class="active">
+              <a id = "myencode" href="#encode">Encoder & Decoder</a>
+            </li>
+
+            <li>
+              <a id = "myLF" href="#LF">Latch & Flip-Flop</a>
+            </li>
+
+            <li>
+              <a id = "mytime555" href="#time555">555 Timer</a>
+            </li>
+
+          </div>
+         </div>   
+            
+        <hr class = "hr1">
+     <hr class = "hr2">
+   		
+   		</ul>
+     
+    
+
+  
+  
+   </center>
+
+   	</nav>
+   	
+   	<div class="content">
+   		<nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top shadow-sm" style="z-index: 2;">
+    <!-- Navbar content -->
+
+   		
+   		<!-- <button type="button" id="sidebarCollapse" class="btn btn-dark"> -->
+        <button type="button" id="sidebarCollapse" class="msak_buttons content">
+   			&nbsp <i class="fa fa-book" style="color:rgba(250,250,250,2)"></i> &nbsp <span> Contents</span>
+   		</button>
+   		
+  <!--<a class="navbar-brand" href="#">Navbar</a> -->
+  <button class="fancy-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">   
+    
+    <!-- <i class="fa fa-bars" style="color:#fff; font-size:28px;"></i> -->
+    <i class="fa fa-caret-square-o-down" aria-hidden="true" style="font-size: 30px"></i>
+</span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+
+    	
+      <li class="nav-item">
+        <!--li class="nav-item fmid"-->
+        <a class="nav-link float-right" href="https://msakabir.github.io/CourseSite/EEE-1210"><button class="msak_buttons msak_buttons-success">EEE-1210</button></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link float-right" href="https://msakabir.github.io/CourseSite/EEE-2188"><button class="msak_buttons msak_buttons-success">EEE-2188</button></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link float-right" href="https://msakabir.github.io/CourseSite/EEE-2204"><button class="msak_buttons msak_buttons-success">EEE-2204</button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link float-right" href="#"><button class="msak_buttons msak_buttons-success active">EEE-2285</button></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link float-right" href="https://msakabir.github.io/CourseSite/EEE-3100"><button class="msak_buttons msak_buttons-success">EEE-3100</button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link float-right" href="https://msakabir.github.io/CourseSite/EEE-3110"><button class="msak_buttons msak_buttons-success">EEE-3110</button></a>
+      </li>
+       <li >
+        <a class="nav-link float-right" href="https://msakabir.github.io/CourseSite/EEE-3209"><button class="msak_buttons msak_buttons-success">EEE-3209</button></a>
+      </li>
+      <li >
+        <a class="nav-link float-right" href="https://msakabir.github.io/CourseSite/EEE-3210"><button class="msak_buttons msak_buttons-success">EEE-3210</button></a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+  	
+  
+ 
+   	</div>
+
+   </div>
+
+<div id ="NS" >
+    <center> <h2><u>Number System</u></h2>
+
+    <h3><u>1's Complement and 2's Complement</u></h3>
+
+
+      <iframe src="https://drive.google.com/file/d/1as7NBrXnN6LI-Q9zNsE45XD0LbFai24j/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1as7NBrXnN6LI-Q9zNsE45XD0LbFai24j" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+      <h3><u>Materials</u></h3>
+
+     <iframe src="https://drive.google.com/file/d/1vTxDLrOLubrwgNW8m4cgE1x7BUjq4oDc/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1vTxDLrOLubrwgNW8m4cgE1x7BUjq4oDc" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+    </center>
+    
+    
+    </div>
+
+
+<div id ="LG" >
+    <center> <h2><u>Logic Gates</u></h1>
+
+      <h3><u>Design of Logic Gates</u></h3>
+
+    	<iframe src="https://drive.google.com/file/d/1SFjPjCNIBBYNph8K6J_BrDjuG6d-qKgS/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1SFjPjCNIBBYNph8K6J_BrDjuG6d-qKgS" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+      <h3><u>Materials</u></h3>
+
+     <iframe src="https://drive.google.com/file/d/1zmTbNMZSXt6blk5CVOLCcBsIZYoyWyJK/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1zmTbNMZSXt6blk5CVOLCcBsIZYoyWyJK" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+    </center>
+    
+    
+    </div>
+
+
+    <div id ="BA" >
+    <center> <h2><u>Boolean Algebra</u></h1>
+
+      <h3><u>Materials</u></h3>
+    
+    
+    </div>
+
+
+    <div id ="KMP" >
+    <center> <h2><u>Karnaugh Map</u></h2>
+
+
+      
+
+    <iframe src="https://www.youtube.com/embed/UOt3q-nixV0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1zDA-l5PKPOw1prxgCg_A1nXLwCzaZZUz" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>   
+
+      <h3><u>Materials</u></h3>
+
+      
+
+        <a href="https://drive.google.com/uc?export=download&id=1NJUpMBEh0UC8YUdfqCGdX3AK50amELOK" download><button type="button" class="btn btn-outline-info">Download the following images <i class="fa fa-download"></i></button></a>
+
+        <br>
+
+<!--       <img src="kmap.png">
+      <img src="kmap2.png">
+      <img src="kmap3.png"> -->
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false" style="z-index: 0;">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block" src="kmap.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block" src="kmap2.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block" src="kmap3.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    
+    </center>
+    </div>
+
+
+    <div id ="AS" >
+    <center> <h2><u>Adder & Subtractor</u></h2>
+
+      <h3><u>Half Adder & Half Subtractor (English)</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/8LxoevrtD1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1fJHcwAyBVzD0bMOU8DKpLDy9iApW0PN7" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <h3><u>Half Adder & Half Subtractor (Bangla)</u></h3> 
+
+    <iframe src="https://drive.google.com/file/d/1snlkkOCq0gzlVXojxjr6A4C4VFNIPemj/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1snlkkOCq0gzlVXojxjr6A4C4VFNIPemj" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>  
+
+     <h3><u>Full Adder & Full Subtractor (English)</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/9HCkkl2g5y8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1-3PBt4wa2sXaCVAp8wMzOOZXMGij975f" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <h3><u>Full Adder & Full Subtractor (Bangla)</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1NU7PvNI-98W6PabmxyjtVE4t_NSPVr8E/preview"></iframe>
+
+    <br>  
+
+    <a href="https://drive.google.com/uc?export=download&id=1NU7PvNI-98W6PabmxyjtVE4t_NSPVr8E" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>  
+
+
+
+      <h3><u>Materials</u></h3>
+
+   <iframe src="https://drive.google.com/file/d/1w1j0qA3SfKl7UWt2Y0P1VX1fkXp7KdIw/preview"></iframe>
+<br>
+    <a href="https://drive.google.com/uc?export=download&id=1w1j0qA3SfKl7UWt2Y0P1VX1fkXp7KdIw" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+    </center>
+    </div>
+
+
+
+
+
+    <div id ="mux" >
+    <center> <h2><u>Multiplexer & Demultiplexer</u></h2>
+
+
+
+
+
+
+
+       <h3><u>Multiplexer (English)</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/OQfoBQehXdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1NZ6kXay3kgP9QmqLAr7mmXAFpU0PMUki" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+    <h3><u>Multiplexer (Bangla)</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1EMJcbtU4Y55QOipb07CSDZ-WmHdXcs0Q/preview"></iframe>
+
+    <br>  
+
+    <a href="https://drive.google.com/uc?export=download&id=1EMJcbtU4Y55QOipb07CSDZ-WmHdXcs0Q" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>  
+
+
+
+
+
+      <h3><u>4 to 1 MUX</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1T6BiPvxIdv1tfdX-_ThQu3dWLTQt9n8F/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1T6BiPvxIdv1tfdX-_ThQu3dWLTQt9n8F" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+     <br>
+
+
+
+      <h3><u>Demultiplexer (English)</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/rZGa1MCWQgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1NqyUCFgQMjzDDADA2EXra04O840wwrJP" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+    <h3><u>Demultiplexer (Bangla)</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1bLrBF_pyzSiQyYxbFc62x1hPHeEMArvE/preview" ></iframe>
+
+    <br>  
+
+    <a href="https://drive.google.com/uc?export=download&id=1bLrBF_pyzSiQyYxbFc62x1hPHeEMArvE" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>  
+
+
+      
+
+      <h3><u>Materials</u></h3>
+    
+     <iframe src="https://drive.google.com/file/d/1g-4I5_Gtt0AP2QETEu6CDkMdqdDeo5US/preview"></iframe>
+
+ 
+
+    <br>
+    <a href="https://drive.google.com/uc?export=download&id=1g-4I5_Gtt0AP2QETEu6CDkMdqdDeo5US" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+  </center>
+
+ 
+    
+    </div>
+ 
+
+    <div id ="encode" >
+    <center> <h2><u>Encoder & Decoder</u></h2>
+
+      <h3><u>Encoder</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/Nr7uqn46kew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1zDA-l5PKPOw1prxgCg_A1nXLwCzaZZUz" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>    
+
+
+
+     <h3><u>Priority Encoder</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/NFR111T8OBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1Sxy0I1KfydaN7dxpIGXpvL-sMmW-DsEI" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>
+
+
+   <h3><u>Decoder</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/lCDt76OVnzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    <br>
+
+
+    <a href="https://drive.google.com/uc?export=download&id=1EWKbF3zsJuKXNdhaapEKxlmDT0nLAqIc" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>
+
+
+
+    <h3><u>Materials</u></h3>
+    
+     <iframe src="https://drive.google.com/file/d/19Po6j1AJfDdJAtub8SkcGbm69L5ORiCw/preview"></iframe>
+
+    <br>
+    
+    <a href="https://drive.google.com/uc?export=download&id=19Po6j1AJfDdJAtub8SkcGbm69L5ORiCw" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+
+     </center>
+    </div>
+
+
+
+
+    <div id ="LF" >
+    <center> <h2><u>Latch & Flip-Flop</u></h2>
+
+    <h3><u>Latch</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/gifKCol8CBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1srLew3t4zgLLg5W2bK0QjoHe9XArpyVW" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>    
+
+
+    <h3><u>Flip-Flop (English)</u></h3>
+      
+    <iframe src="https://www.youtube.com/embed/12XkwsAjx7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+
+    <a href="https://drive.google.com/uc?export=download&id=1LvCsD1F-OYZJDvkmfb2qSz7-mr3I-Hyd" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+    <h3><u>Flip-Flop (Bangla)</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1oh6KZ5l65BwfwrHEnYqiQFtS7aN55oMM/preview"></iframe>
+
+    <br>  
+
+    <a href="https://drive.google.com/uc?export=download&id=1oh6KZ5l65BwfwrHEnYqiQFtS7aN55oMM" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br> 
+
+
+
+    <h3><u>Timing Diagrams</u></h3>
+
+      <iframe src="https://drive.google.com/file/d/1EPCb6AMvwS2ZTOhNtrKCb4zMu0LWf5gq/preview"></iframe>
+<br>
+    <a href="https://drive.google.com/uc?export=download&id=1EPCb6AMvwS2ZTOhNtrKCb4zMu0LWf5gq" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+<br>
+
+      <h3><u>Materials</u></h3>
+    <iframe src="https://drive.google.com/file/d/1RF66vDtNeqzi2rHq5y-9z0EOR0Jmfycl/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1RF66vDtNeqzi2rHq5y-9z0EOR0Jmfycl" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+  </center>
+
+    
+    </div>
+
+
+    <div id ="time555" >
+    <center> <h2><u>555 Timer</u></h2>
+
+    	<h3><u>Internal Block Diagram and Astable & Monostable Operations</u></h3>
+
+    	<iframe src="https://drive.google.com/file/d/1OZnuwBaucekDypaQLmmq2_wrrm90xNdx/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1OZnuwBaucekDypaQLmmq2_wrrm90xNdx" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+      <h3><u>Materials</u></h3>
+
+     <iframe src="https://drive.google.com/file/d/17Tsz27GEdBB8zR8rl8IJ6L1UA3JCEKmq/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=17Tsz27GEdBB8zR8rl8IJ6L1UA3JCEKmq" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+    </center>
+    
+    </div>
+
+
+<div id ="D" >
+    <center> <h2><u>Diode</u></h2>
+
+     <h3><u>Diode (Part-1)</u></h3>
+
+
+      <iframe src="https://drive.google.com/file/d/1pMZdu-KTsWt9D-MEPcw3dgake_bL34wX/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1pMZdu-KTsWt9D-MEPcw3dgake_bL34wX" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+      <h3><u>Materials</u></h3>
+
+     <iframe src="https://drive.google.com/file/d/1Ou9GsR2wYSNCzO4ZUUGnTWq36M3cSMGN/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1Ou9GsR2wYSNCzO4ZUUGnTWq36M3cSMGN" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+    </center>
+    
+    
+    </div>
+
+
+    <div id ="RF" >
+    <center> <h2><u>Rectifier</u></h2>
+
+    <h3><u>Half-wave and Full-wave Rectifier</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1teiJPcF87ZvGlKVVXlnRrqBL993V-qj7/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1teiJPcF87ZvGlKVVXlnRrqBL993V-qj7" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+      <h3><u>Materials</u></h3>
+
+     <iframe src="https://drive.google.com/file/d/1DtvT__zqLyXfjdCVndGU1XqV2hdPEA1J/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1DtvT__zqLyXfjdCVndGU1XqV2hdPEA1J" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+    </center>
+    
+    
+    </div>
+
+
+    <div id ="CC" >
+    <center> <h2><u>Clipper & Clamper</u></h2>
+
+  <h3><u>Clipper</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1mdSEHHTIaMz_F-_3aFOqTyXPg3vbeRHa/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1mdSEHHTIaMz_F-_3aFOqTyXPg3vbeRHa" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>
+
+    <h3><u>Clamper</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1-dnNq6vF-PAhKFBGjKWuHfr8tzK4M33z/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1-dnNq6vF-PAhKFBGjKWuHfr8tzK4M33z" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+      <h3><u>Materials</u></h3>
+
+      <h4><u>Clipper</u></h4>
+      <iframe src="https://drive.google.com/file/d/1cDIVvckR8yYaN-H2nLs4gNJBlevT-ePD/preview"></iframe>
+      <br> <br>
+
+      <h4><u>Clamper</u></h4>
+      <iframe src="https://drive.google.com/file/d/1a_i3P3ONFphTIcKcoOADjg1SGFiID7qH/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=117vsj1M5STCjjWXgLdrHTQK8U_X9gWOQ" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    
+    </center>
+    
+    
+    </div>
+
+
+    <div id ="ZD" >
+    <center> <h2><u>Zener Diode</u></h2>
+
+      <iframe src="https://drive.google.com/file/d/1ALnvrXwGywCxfh2SXPSWTY7rvYOSlvAt/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1ALnvrXwGywCxfh2SXPSWTY7rvYOSlvAt" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+      <h3><u>Materials</u></h3>
+
+     <iframe src="https://drive.google.com/file/d/1L0GCoeyQNszd7kULUcNobX12uyMdtQ8Y/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1L0GCoeyQNszd7kULUcNobX12uyMdtQ8Y" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+    
+    </center>
+    
+    </div>
+
+ 
+   
+    <div id ="bjt" >
+    <center> <h2><u>Bipolar Junction Transistor (BJT)</u></h2>
+
+    	<h3><u>BJT (Part-1)</u></h3>
+
+    	<iframe src="https://drive.google.com/file/d/1aQzUQqm06KzFJsF2yQI_JeGoH5LAynLs/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1aQzUQqm06KzFJsF2yQI_JeGoH5LAynLs" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+     <br>
+
+     <h3><u>BJT (Part-2)</u></h3>
+
+    <iframe src="https://drive.google.com/file/d/1-padd0TUH5XumtMHAL4-7c_lFOZQxDYb/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1-padd0TUH5XumtMHAL4-7c_lFOZQxDYb" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>
+
+    <h3><u>BJT (Part-3)</u></h3>
+
+
+    <iframe src="https://drive.google.com/file/d/1PH3SHM-Hp_V80V7L11awXH3DGPuOM1AO/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1PH3SHM-Hp_V80V7L11awXH3DGPuOM1AO" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>
+
+    <h3><u>BJT (AC)</u></h3>
+
+
+    <iframe src="https://drive.google.com/file/d/1-LiCGseWrf3wCLykyw5B2s_LpGR6x5Ko/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1-LiCGseWrf3wCLykyw5B2s_LpGR6x5Ko" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+
+
+
+
+      <h3><u>Materials</u></h3>
+    
+     <h4><u>BJT (Part-1)</u></h4>
+     <iframe src="https://drive.google.com/file/d/16pBxujj3aoR5aC1Tka89zEbY1Ho4tVUp/preview"></iframe>
+     <br> <br>
+
+     <h4><u>BJT (Part-2)</u></h4>
+     <iframe src="https://drive.google.com/file/d/1umQ6TjwWBU0ivhATWnhwGnwSNylTyobE/preview"></iframe>
+     <br> <br>
+      
+      <h4><u>BJT (Part-3)</u></h4>
+      <iframe src="https://drive.google.com/file/d/1O2rf-wi-M-k4s5IESHCjwE2Uz01EKmhM/preview"></iframe>
+      <br> <br>
+
+      <h4><u>BJT (AC)</u></h4>
+      <iframe src="https://drive.google.com/file/d/1HbY1XMzBbm3m7bBDUtJCdADQqz8FHaG0/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1JjGDoioP_ITy4AjoNwnxLlKoElq9l15V" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+</center>
+    
+    </div>
+
+
+    <div id ="mos" >
+    <center> <h2><u>Field-Effect Transistor (FET)</u></h2>
+
+    	<h3><u>JFET and MOSFET</u></h3>
+
+
+    <iframe src="https://drive.google.com/file/d/10XUrLIkDF2NZ8noA8MA93VaJJugMbRN2/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=10XUrLIkDF2NZ8noA8MA93VaJJugMbRN2" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+      <h3><u>Materials</u></h3>
+
+
+      <iframe src="https://drive.google.com/file/d/1nr1043lnEnuETK5V1uOUQlF3m6m5bgVw/preview"></iframe>
+
+     <br>
+    <a href="https://drive.google.com/uc?export=download&id=1nr1043lnEnuETK5V1uOUQlF3m6m5bgVw" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+</center>
+    
+    
+    </div>
+
+
+    <div id ="OA" >
+    <center> <h2><u>Operational Amplifier (Op-Amp)</u></h2>
+
+    <h3><u>Op-Amp (Part-1)</u></h3>
+
+
+    <iframe src="https://drive.google.com/file/d/1aJUjWO-wyVj6DEm7wInnzB5rtApvL3EZ/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1aJUjWO-wyVj6DEm7wInnzB5rtApvL3EZ" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+    <br>
+
+    <h3><u>Op-Amp (Part-2)</u></h3>
+
+
+    <iframe src="https://drive.google.com/file/d/1w9FsJt2dIsL-cHENX9a_w8zzOAc9vvir/preview"></iframe>
+
+    <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1w9FsJt2dIsL-cHENX9a_w8zzOAc9vvir" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+
+
+
+      <h3><u>Materials</u></h3>
+
+      <h4><u>Op-Amp (Part-1)</u></h4>
+      <iframe src="https://drive.google.com/file/d/1PybTrI3RKq824adzlxO3fnaK33bxEaO6/preview"></iframe>
+      <br> <br>
+
+      <h4><u>Op-Amp (Part-2)</u></h4>
+      <iframe src="https://drive.google.com/file/d/1t7Z5x92hQYU_oPnHt2rFsKab0HxDCYje/preview"></iframe>
+
+     <br>
+
+    <a href="https://drive.google.com/uc?export=download&id=1wSvbKm6LaM7EjqgNVv3TWHf-tTIzYSs_" download><button type="button" class="btn btn-outline-dark">Download <i class="fa fa-download"></i></button></a>
+  </center>
+    
+    </div>
+  
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <script>
+
+/*
+     $(document).ready(function(){
+      $('#navbarNav').on('click','ul li',function(){
+        $(this).addClass('active').siblings().removeClass('active');
+      });
+    });  
+    */
+
+
+ // $("#opt1").on('click', function() {
+ //  var elem1 = document.getElementById("opt1");
+ //  var elem2 = document.getElementById("opt2");
+ //  elem1.classList.add("lukao");
+ //  elem2.classList.remove("lukao");
+ // });
+
+ // $("#opt2").on('click', function() {
+ //  var elem1 = document.getElementById("opt1");
+ //  var elem2 = document.getElementById("opt2");
+ //  elem2.classList.add("lukao");
+ //  elem1.classList.remove("lukao");
+ // });
+
+
+
+
+
+  $("#opt1").on('click', function() {
+    var w = window.innerWidth;
+    if (w > 768){
+  $("#opt1").removeClass( "dekhao").addClass("lukao");
+  $("#opt2").removeClass( "lukao").addClass("dekhao");
+ $("#opt2").addClass( "notouch").delay(500).queue(function(){
+    $(this).removeClass("notouch").dequeue();});
+}
+});
+
+ $("#opt2").on('click', function() {
+  var w = window.innerWidth;
+    if (w > 768){
+  $("#opt2").removeClass( "dekhao").addClass("lukao");
+  $("#opt1").removeClass( "lukao").addClass("dekhao");
+ $("#opt1").addClass( "notouch").delay(500).queue(function(){
+    $(this).removeClass("notouch").dequeue();});
+}
+});
+
+
+
+
+      
+     $("#mymux").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+        elem1.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        window.location = "#mux";
+      });
+
+
+     $("#myencode").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+        elem2.style.display = "block";
+        elem1.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+
+        window.location = "#encode";
+      });
+
+
+     $("#myLF").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem3.style.display = "block";
+        elem2.style.display = "none";
+        elem1.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        window.location = "#LF";
+      });
+
+
+     $("#mytime555").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem4.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem1.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        window.location = "#time555";
+      });
+
+
+     $("#mybjt").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+        elem5.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem1.style.display = "none";
+        elem6.style.display = "none";
+        elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+
+        window.location = "#bjt";
+      });
+
+     $("#mymos").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+        elem6.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem1.style.display = "none";
+        elem7.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+
+        window.location = "#mos";
+      });
+
+     $("#myOA").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem7.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+
+        window.location = "#OA";
+      });
+    
+
+
+     $("#myNS").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem8.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem7.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#NS";
+      });
+
+
+
+     $("#myLG").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem9.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem7.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#LG";
+      });
+
+
+
+    $("#myBA").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem10.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem7.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#BA";
+      });
+
+
+      $("#myKMP").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem11.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem7.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#KMP";
+      });
+
+
+     $("#myAS").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem12.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem7.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#AS";
+      });
+
+
+   $("#myD").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem13.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem7.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#D";
+      });
+
+
+ $("#myRF").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem14.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem7.style.display = "none";
+        elem15.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#RF";
+      });
+
+
+
+     $("#myCC").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem15.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem7.style.display = "none";
+        elem16.style.display = "none";
+
+        
+        window.location = "#CC";
+      });
+
+
+    $("#myZD").on('click', function() {
+        var elem1 = document.getElementById("mux");
+        var elem2 = document.getElementById("encode");
+        var elem3 = document.getElementById("LF");
+        var elem4 = document.getElementById("time555");
+        var elem5 = document.getElementById("bjt");
+        var elem6 = document.getElementById("mos");
+        var elem7 = document.getElementById("OA");
+
+        var elem8 = document.getElementById("NS");
+        var elem9 = document.getElementById("LG");
+        var elem10 = document.getElementById("BA");
+        var elem11 = document.getElementById("KMP");
+        var elem12 = document.getElementById("AS");
+        var elem13 = document.getElementById("D");
+        var elem14 = document.getElementById("RF");
+        var elem15 = document.getElementById("CC");
+        var elem16 = document.getElementById("ZD");
+
+
+        elem16.style.display = "block";
+        elem2.style.display = "none";
+        elem3.style.display = "none";
+        elem4.style.display = "none";
+        elem5.style.display = "none";
+        elem6.style.display = "none";
+        elem1.style.display = "none";
+
+        elem8.style.display = "none";
+        elem9.style.display = "none";
+        elem10.style.display = "none";
+        elem11.style.display = "none";
+        elem12.style.display = "none";
+        elem13.style.display = "none";
+        elem14.style.display = "none";
+        elem15.style.display = "none";
+        elem7.style.display = "none";
+
+        
+        window.location = "#ZD";
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+    
+	    $(document).ready(function(){
+			$('#allsub').on('click','li',function(){
+        $('#allsub li').removeClass('active');
+				$(this).addClass('active').siblings().removeClass('active');
+			});
+		});  
+   
+
+function change()
+{
+    var elem1 = document.getElementById("ana");
+    var elem2 = document.getElementById("dig");
+    var sub = document.querySelector("#subject");
+    elem2.style.display = "none";
+    elem1.style.display = "block";
+    sub.innerHTML = "<h2>Analog</h2>";
+}
+function change2()
+{
+    var elem1 = document.getElementById("ana");
+    var elem2 = document.getElementById("dig");
+    var sub = document.querySelector("#subject");
+    elem1.style.display = "none";
+    elem2.style.display = "block";
+    sub.innerHTML = "<h2>Digital</h2>";
+}
+
+
+
+      $(document).ready(function(){
+      $('#sidebarCollapse').on('click',function(){
+        $('#sidebar').toggleClass('active');
+      });
+    }); 
+
+
+
+
+
+
+
+	</script>
+    
+    
+    
+    
+    
+  </body>
+</html>
